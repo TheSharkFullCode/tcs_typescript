@@ -3,6 +3,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './components/Counter'
 
+
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -19,10 +21,14 @@ function App() {
         <h3>Vite + Typescript </h3>
 
       <div>
+        
         <Counter/>
+
+          
+
        
       </div>
-    
+
     </>
   )
 }

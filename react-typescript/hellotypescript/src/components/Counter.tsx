@@ -1,4 +1,5 @@
 import { useState } from "react"
+import UserID from "./UserID"
 
 export default function Counter() {
 
@@ -19,10 +20,18 @@ export default function Counter() {
       <h1>{counter}</h1>
 
     </div>
-
+    <div className="board">
         <button onClick={()=>incrementar(2)}> +2</button>
-        <hr />
         <button onClick={()=>setCounter(0)}> reset</button>
+
+    </div>
+        <hr />
+
+
+        <UserID>
+
+        </UserID>
+       
     </>
   )
 }
